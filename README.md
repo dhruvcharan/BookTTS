@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `TTSConversion` project is designed to facilitate the conversion of various file types into Markdown (`.md`) format and subsequently convert Markdown files into Text-to-Speech (TTS) audio output. 
+A little hobby project designed to facilitate the conversion of various books into md objects so they can be converted into audiobooks using modular interfaces to allow swapping of Tokenizers and models
 
 ### Key Features:
 1. **Filetype to Markdown Conversion**:
