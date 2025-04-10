@@ -16,8 +16,7 @@ class MarkitdownConverter(FileConverter):
             raise FileNotFoundError(f"File not found: {filepath}")
         md = MarkItDown()
         result = md.convert(filepath)
-        # Assuming result.text_content is the correct attribute
-        return result.text_content  # Return the content instead of printing
+        return result.text_content  
 
 
 class MarkdownConversionManager:
